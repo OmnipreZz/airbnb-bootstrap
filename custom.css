@@ -1,19 +1,4 @@
 /* Vos customisations des classes de Bootstrap */
-
-
-/* Responsive Styling */
-
-@media (max-width: 1199px) {
-
-}
-
-@media (max-width: 991px) {
-
-}
-
-@media (max-width: 767px) {
-
-}
 .color1 {
     color:#585A3A;
 }
@@ -28,4 +13,18 @@
 }
 .color5 {
     color: #4C5629; 
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
 }
