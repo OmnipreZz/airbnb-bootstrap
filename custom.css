@@ -1,5 +1,7 @@
 /* Vos customisations des classes de Bootstrap */
-
+.jumbotron {
+	background: url("../images/hero-image.jpg");
+}
 
 /* Responsive Styling */
 
