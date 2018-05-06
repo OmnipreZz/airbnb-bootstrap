@@ -15,52 +15,152 @@
 </head>
 
 <body>
-		<!-- menu -->
-		<nav class="navbar navbar-default">
-  			<div class="container-fluid">
-	    		<div class="navbar-header">
-		      		<a class="navbar-brand" href="#">Logo</a>
-		    	</div>
+    <!--class="with-new-header search-modal-open">-->
 
-		    	 <form class="navbar-form navbar-left" action="/action_page.php">
-  					<div class="input-group">
-    					<input type="text" class="form-control" placeholder="Essayez Sardaigne">
-    					<div class="input-group-btn">
-      						<button class="btn btn-default" type="submit">
-        						<i class="glyphicon glyphicon-search"></i>
-      						</button>
-    					</div>
-  					</div>
-				</form> 
+    <!-- menu, pas de container sinon il n'atteind pas les bord de l'écran, les container ont un margin left et right de 15px par defaut -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Airbnb</a>
 
-		      	<ul clas="nav navbar-nav navbar-right">
-			      	<li><a href="#">Devenir hôte</a></li>
-			      	<li><a href="#">Gagner du crédit</a></li>
-			      	<li><a href="#">Aide</a></li>
-			      	<li><a href="#">Inscription</a></li>
-			      	<li><a href="#">Connexion</a></li>
-		    	</ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
 
-	  		</div>
-		</nav>
+        <div class="navbar ml-auto">
+            <ul class="navbar-nav ml-auto float-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Devenir hôte </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gagner du crédit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Aide</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inscription</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Connexion</a>
+                </li>
+            </ul>
 
-		<!--Explorer Airbnb-->
+        </div>
+    </nav>
+    
 
-		<!-- Voici Airbnb Plus-->
-		<div class="container">
-  			<div class="jumbotron">
-  			</div>
-  		</div>
+    
+    <!--Explorer Airbnb-->
+<div class="container-fluid">
+    <h3 class="font-weight-bold color0">Explorer AirBnB</h3>
+    
+<div class="row" style="margin-bottom: 50px">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+    <div class="card-deck">
+        <div class="card">
+            <div class="card-body">
+                <div class="media">
+                    <img class="d-flex mr-0" data-src="holder.js/64x64?theme=sky" alt="Generic placeholder image" style="width: 100px" src="https://a0.muscache.com/im/pictures/8b7519ec-2c82-4c09-8233-fd4d2715bbf9.jpg?aki_policy=large">
+                <div class="media-body">
+                    <h5 class="mt-4 font-weight-bold text-truncate color0">Logements</h5>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="media">
+                    <img class="d-flex mr-0" data-src="holder.js/64x64?theme=sky" alt="Generic placeholder image" style="width: 100px" src="https://a0.muscache.com/im/pictures/cb8b3101-d419-4c17-8e2f-4989b39b98c3.jpg?aki_policy=large">
+                <div class="media-body">
+                    <h5 class="mt-4 font-weight-bold text-truncate color0">Expériences</h5>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="media">
+                    <img class="d-flex mr-0" data-src="holder.js/64x64?theme=sky" alt="Generic placeholder image" style="width: 100px" src="https://a0.muscache.com/im/pictures/da2d8e97-90b7-409f-94ac-5ab0327c289b.jpg?aki_policy=large">
+                <div class="media-body">
+                    <h5 class="mt-4 font-weight-bold text-truncate color0">Restaurants</h5>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    
+    <!-- Voici Airbnb Plus-->
 
-        <!-- Logements à travers le monde -->
 
+<h3 class="font-weight-bold color0" >Voici Airbnb Plus</h3>  
+    <div class="container" >
+        <div class="jumbotron">
+        </div>
+    </div>
+
+    
+
+    <!-- Logements à travers le monde -->
+<div class="container-fluid">
+    <h3 class="font-weight-bold color0">Logements à travers le monde</h3>
+
+    <div class="row" style="margin-bottom: 50px">
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-2">
+            <img class="img-fluid" src="https://a0.muscache.com/im/pictures/6722906/b4bc6418_original.jpg?aki_policy=large" alt="maison isla mujeres">
+            <p class="font-weight-bold text-truncate small  color1">MAISON ENTIÈRE . ISLA MUJERES<p>
+            <h5 class="font-weight-bold color0">The World Famous Seashell House ~ Casa Caracol</h5>
+            <p class="text-secondary">257€ par nuit . Annulation gratuite</p>
+            <p class="small">(5 étoiles + 165)</p>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-2">
+            <img class="img-fluid" src="https://a0.muscache.com/im/pictures/21611933/43f6de69_original.jpg?aki_policy=large" alt="Cabane dans les arbres">
+            <p class="font-weight-bold text-truncate small color2">CABANE DANS LES ARBRES . ATLANTA<p>
+            <h5 class="font-weight-bold color0">Secluded Intown Treehouse</h5>
+            <p class="text-secondary">313€ par nuit . Annulation gratuite</p>
+            <p class="small">(5 étoiles + 288 Superhost)</p>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-2"> 
+            <img class="img-fluid" src="https://a0.muscache.com/im/pictures/307a5575-c3a4-4b21-8127-a37875ec1239.jpg?aki_policy=large" alt="Camping-car/caravane">
+            <p class="font-weight-bold text-truncate small color3">CAMPING-CAR/CARAVANE . MALIBU</p>
+            <h5 class="font-weight-bold color0">Malibu Dream Airstream</h5>
+            <p class="text-secondary">501€ par nuit . Annulation gratuite</p>
+            <p class="small">(5 étoiles + 294)</p>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-2">
+            <img class="img-fluid" src="https://a0.muscache.com/im/pictures/52149945/33130c63_original.jpg?aki_policy=large" alt="Maison Abianse mal">
+            <p class="font-weight-bold text-truncate small color4">MAISON ENTIÈRE . ABIANSE MAL<p>
+            <h5 class="font-weight-bold color0">Magnifique maison en bambou au bord du fleuve</h5>
+            <p class="text-secondary">280€ par nuit . Annulation gratuite</p>
+            <p class="small">(5 étoiles + 136)</p>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-2">
+            <img class="img-fluid" src="https://a0.muscache.com/im/pictures/65441227/bb1eb2dd_original.jpg?aki_policy=large" alt="Cabane Armenia">
+            <p class="font-weight-bold text-truncate small color5">CABANE ENTIÈRE . ARMENIA<p>
+            <h5 class="font-weight-bold color0">Romantic Cabana with view</h5>
+            <p class="text-secondary">34€ par nuit . Annulation gratuite</p>
+            <p class="small">(5 étoiles + 143)</p>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-2">
+            <img class="img-fluid" src="https://a0.muscache.com/im/pictures/812e040f-6f6f-4cae-ad67-66c050b57c1f.jpg?aki_policy=large" alt="Maison Joshua tree">
+            <p class="font-weight-bold text-truncate small color5">MAISON ENTIÈRE . JOSHUA TREE<p>
+            <h5 class="font-weight-bold color0">The Joshua Tree House</h5>
+            <p class="text-secondary">215€ par nuit . Annulation gratuite</p>
+            <p class="small">(5 étoiles + 316 Superhost)</p>
+        </div>
+    </div>
+
+</div>    
+   
         <!--Des logements adaptés à votre voyage-->
 
         <!--Expériences populaires-->
 
         <!--Expériences à la une-->
 
-		<!--Logements Airbnb Plus à travers le monde-->
+        <!--Logements Airbnb Plus à travers le monde-->
 
         <!--Séjournez chez un Superhost-->
 
@@ -86,35 +186,117 @@
 
         <!--Expériences : Tokyo-->
 
-		<!--Logements : Tokyo-->
+        <!--Logements : Tokyo-->
 
-		<!--Expériences : Los Angeles-->
+        <!--Expériences : Los Angeles-->
 
         <!--Logements : Los Angeles-->
 
         <!--Expériences : Lisbonne-->
+        
+    <!--Logements : Lisbonne-->
+        
+    <h3 class="title">Logements : Lisbonne</h3>
+        
+    <div class="raw d-inline-flex ">
 
-        <!--Logements : Lisbonne-->
-    
-   		<!--Expériences : San Francisco-->
+        <div class="col">
+            <img class="w-100" src="https://a0.muscache.com/im/pictures/45073239/87418a31_original.jpg">
+            <p class="middle color1">LOGEMENT ENTIER LISBONNE</p>
+            <h5 class="middle-plus">Chiado Loft 7 with Patio!</h5>
+            <p class="middle">86€ par nuit</p>
+            <p class="very-small">(5etoiles a mettre)257-Superhost</p>
+        </div>
+        <div class="col">
+            <img class="w-100" src="https://a0.muscache.com/im/pictures/a8e3b7df-f468-4f5a-9ee4-3822b884f806.jpg">
+            <p class="middle color2">LOGEMENT ENTIER LISBOA</p>
+            <h5 class="middle-plus">Chiado Loft 12 Amazing Duplex with Terrace</h5>
+            <p class="middle">96€ par nuit</p>
+            <p class="very-small">(5etoiles a mettre)107-Superhost</p>
+        </div>
+        <div class="col">
+            <img class="w-100" src="https://a0.muscache.com/im/pictures/82413862/0c7815e5_original.jpg">
+            <p class="middle color3">LOGEMENT ENTIER LISBOA</p>
+            <h5 class="middle-plus">Appartement Alfama Pateo -YouLisbon</h5>
+            <p class="middle">93€ par nuit</p>
+            <p class="very-small">(5etoiles a mettre)225-Superhost</p>
+        </div>
+        <div class="col">
+            <img class="w-100" src="https://a0.muscache.com/im/pictures/22240219/13211466_original.jpg">
+            <p class="middle color4">MAISON DE VILLE ENTIÈRE · LISBONNE</p>
+            <h5 class="middle-plus">Lisbonne - Loft Sky View - WI-FI GRATUIT</h5>
+            <p class="middle">69€ par nuit</p>
+            <p class="very-small">(5etoiles a mettre)301-Superhost</p>
+        </div>
+        <div class="col d-none d-lg-block">
+            <img class="w-100" src="https://a0.muscache.com/im/pictures/7c970f5b-3e8b-4701-8410-dc19f917c62c.jpg">
+            <p class="middle color5">LOGEMENT ENTIER LISBOA</p>
+            <h5 class="middle-plus">Design flat w/private Garden Av Liberdade Lisbon</h5>
+            <p class="middle">108€ par nuit</p>
+            <p class="very-small">(5etoiles a mettre)108-Superhost</p>
+        </div>
+    </div>
+        
+    <!--Expériences : San Francisco-->
+    <h3 class="title">Expériences : San Francisco</h3>
+        
+    <div class="raw d-inline-flex ">
 
-        <!--Logements : San Francisco-->
+        <div class="col">
+            <img class="w-100" src="https://a0.muscache.com/im/pictures/dc638487-3cc5-41a0-b68a-85633f955349.jpg">
+            <p class="middle color1">COURS DE YOGA</p>
+            <h5 class="middle-plus">Silent Disco Beach Yoga</h5>
+            <p class="middle">31€ par personne</p>
+            <p class="very-small">(5etoiles a mettre)297</p>
+        </div>
+        <div class="col">
+            <img class="w-100" src="https://a0.muscache.com/im/pictures/176a5a82-180b-4146-a05a-e50cb7f7468e.jpg">
+            <p class="middle color2">CONCERT INTIMISTE</p>
+            <h5 class="middle-plus">Lakehouse Jazz</h5>
+            <p class="middle">26€ par personne</p>
+            <p class="very-small">(4etoiles et demi a mettre)362</p>
+        </div>
+        <div class="col">
+            <img class="w-100" src="https://a0.muscache.com/im/pictures/f436524c-8a42-49cc-8f61-4d22abd80151.jpg">
+            <p class="middle color3">VISITE DE BUREAUX</p>
+            <h5 class="middle-plus">Tech Tourisme for a Cause</h5>
+            <p class="middle">14€ par personne</p>
+            <p class="very-small">(5etoiles a mettre)3</p>
+        </div>
+        <div class="col">
+            <img class="w-100" src="https://a0.muscache.com/im/pictures/c4acdfc2-d9bb-4c63-86fb-ea4a7456f6c5.jpg">
+            <p class="middle color4">RANDONEE GUIDEE</p>
+            <h5 class="middle-plus">Hidden Stairways of SF Urban Hike</h5>
+            <p class="middle">22€ par personne</p>
+            <p class="very-small">(5etoiles a mettre)63</p>
+        </div>
+        <div class="col d-none d-lg-block">
+            <img class="w-100" src="https://a0.muscache.com/im/pictures/e3e4c486-fbd3-4eca-976c-d59cb2392d58.jpg">
+            <p class="middle color5">CONCERT INTIMISTE</p>
+            <h5 class="middle-plus">Avant-Rock Cello Concert</h5>
+            <p class="middle">22€ par personne</p>
+            <p class="very-small"></p>
+        </div>
+    </div>
 
-        <!--Expériences : Sydney-->
+    <!--Logements : San Francisco-->
 
-        <!--Logements : Sydney-->
+    <!--Expériences : Sydney-->
 
-        <!--Expériences : Londres-->
+    <!--Logements : Sydney-->
 
-        <!--Logements : Londres-->
+    <!--Expériences : Londres-->
 
-        <!--Expériences : Autre (International)-->
+    <!--Logements : Londres-->
 
-        <!--Logements : Rome-->
+    <!--Expériences : Autre (International)-->
 
-        <!--Langue et devise (bouton tout en bas a gauche)-->
+    <!--Logements : Rome-->
 
-        <!-- fin du container-fluid -->
+    <!--Langue et devise (bouton tout en bas a gauche)-->
+
+    </div>
+    <!-- fin du container-fluid -->
 
 </body>
 
